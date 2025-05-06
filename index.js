@@ -9,7 +9,7 @@ const [, , command, ...restArgs] = process.argv;
 const rawMigrationName = restArgs.join(' ').trim();
 
 if (command !== 'create' || !rawMigrationName) {
-  console.error('Usage: sqlpage-migration-mgr create [migration_name]');
+  console.error('Usage: sqlpage-migrate create [migration_name]');
   process.exit(1);
 }
 
