@@ -1,6 +1,6 @@
 {
     "name": "sqlpage-migrate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple CLI tool to create timestamped SQL migration files for SQLPage",
     "main": "index.js",
     "bin": {
